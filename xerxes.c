@@ -13,7 +13,7 @@
 int attack(char *host, char *port) {
 	struct addrinfo hints, *servinfo, *p;
 	int sock;
-	fprintf(stderr, "[Connecting -> %s:%s\n", host, port);z
+	fprintf(stderr, "[Connecting -> %s:%s\n", host, port);
 	memset(&hints, 0, sizeof(hints));
 	hints.ai_family = AF_UNSPEC;
 	hints.ai_socktype = SOCK_STREAM;
